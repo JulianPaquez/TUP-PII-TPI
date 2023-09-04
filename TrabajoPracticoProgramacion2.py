@@ -49,7 +49,19 @@ libro3 = {'cod': 'adOd09UE', 'cant_ej_ad': 1, 'cant_ej_pr': 0, "titulo": "El có
 
 
 def generar_codigo():
-    #completar
+    cod= input("Ingrese el codigo del libro: ")
+
+    if cod == 'CRBJsAkS':
+        print(libro1)
+
+    elif cod == 'QgfV4j3c':
+        print(libro2)
+        
+    elif cod == 'adOd09UE':
+        print(libro3)
+
+    else:
+        print("Error.Codigo invalido")
     return None
 
 
@@ -72,8 +84,7 @@ while respuesta != "salir":
     os.system ("cls") #Limpiar pantalla
     if opt.isnumeric():
         if int(opt) == 1:
-            #completar
-            print()
+            generar_codigo()
         elif int(opt) == 2:
             #completar
             print()
