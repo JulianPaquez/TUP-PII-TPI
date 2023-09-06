@@ -34,7 +34,7 @@ def eliminar_ejemplar_libro():
     return None"""
 
 def devolver_ejemplar_libro():
-    respuesta = input("Desea devolver un libro?")
+    respuesta = input("Desea devolver un libro? (si o no)")
 
     while respuesta == "si":
      cod= input("Ingrese el codigo del libro: ")
@@ -117,7 +117,7 @@ while respuesta != "salir":
         if int(opt) == 1:
             generar_codigo()
         elif int(opt) == 2:
-            #completar
+            devolver_ejemplar_libro()
             print()
         elif int(opt) == 3:
             registrar_nuevo_libro()
