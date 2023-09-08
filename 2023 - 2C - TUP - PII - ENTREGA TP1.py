@@ -1,14 +1,14 @@
 import os
 
-# Definir los diccionarios de libros
+
 libro1 = {'cod': 'CRBJsAkS', 'cant_ej_ad': 3, 'cant_ej_pr': 1, "titulo": "Cien años de soledad", "autor": "Gabriel García Márquez"}
 libro2 = {'cod': 'QgfV4j3c', 'cant_ej_ad': 4, 'cant_ej_pr': 2, "titulo": "El principito", "autor": "Antoine de Saint-Exupéry"}
 libro3 = {'cod': 'adOd09UE', 'cant_ej_ad': 1, 'cant_ej_pr': 0, "titulo": "El código Da Vinci", "autor": "Dan Brown"}
 
-# Crear una lista para almacenar los libros
+
 libros = [libro1, libro2, libro3]
 
-# Inicializar las cantidades de ejemplares
+
 EjemplaresLibro1 = 3
 EjemplaresLibro2 = 4
 EjemplaresLibro3 = 1
@@ -110,7 +110,7 @@ def ejemplares_prestados():
 import random
 import string
 
-# get random password pf length 8 with letters, digits, and symbols
+
 """def generar():
     characters = string.ascii_letters + string.digits
     cod = ''.join(random.choice(characters) for i in range(8))
